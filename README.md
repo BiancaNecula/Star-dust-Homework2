@@ -13,7 +13,7 @@ git clone https://github.com/BiancaNecula/Star-dust-Homework2.git
 ```
 See README.check.pdf for informations about checker and testing. \
 See "Programare_2019__Tema_2.pdf" for information about the homework. \
-Tasks with dynamic allocation in C language.
+**Tasks with dynamic allocation in C language.**
 
 # About the code:
 
