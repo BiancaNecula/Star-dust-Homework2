@@ -1,0 +1,23 @@
+{
+    "name": "star_dust",
+    "deps": [
+        "gcc",
+        "python2.7",
+        "python3",
+        "valgrind"
+    ],
+    "tasks": [
+        {
+            "name": "star_dust",
+            "points": 100,
+            "tests": 10,
+            "timeout": 10,
+            "stdin": true,
+            "stdout": true,
+            "valgrind": false
+        }
+    ],
+    "coding_style": 20,
+    "penalty_warnings": 5,
+    "penalty_readme": 5
+}

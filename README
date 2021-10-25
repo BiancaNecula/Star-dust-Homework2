@@ -1,0 +1,16 @@
+Necula Bianca, grupa 315CA
+
+Tema 2
+
+Pentru rezolvarea task-urilor, am citit datele necesare in main si am scris functii specifice pentru fiecare task astfel:
+
+citirea - Am citit harta intr-o matrice tip char pentru a pastra datele pe bytes ca prelucrarea sa fie mai usoara. Am pastrat ordinea acestora in functie de sistemul little endian si am preliucrat fara alterarea ordinii (exceptie: swap),
+
+task 1: Am scris functia task1(char **, int *, int) pentru rezolvarea taskului 1. Am calculat suma si numarul bytes-ilor de pe marginea matricei(toti de pe prima si ultima linie + primul si ultimul de pe fiecare linie) si am realizat media aritmetica cu o precizie de 8 zecimale.
+
+task 2: Am scris functia task2(char**, int *, int) cu functiile incluse: modify, swp, del corespunzatoare fiecare operatii. Astfel, am citit de la STDIN datele necesare rezolvarii si in functie de tipul de date (char, short, int) am aflat dimensiunea blocurilor de date pe care vom lucra.
+	modify() - functia modifica un bloc de date de un anumit tip, cu un altul dat. Daca acesta nu se afla in zona de memorie, se realoca memoria pentru respectiva linie din matrice si se adauga. Intre vechea zona de memorie si datele nou adaugate, zona se zeroizeaza. Indexarea incepe de la 1.
+	swap() - functia interschimba valorile intr-un anumit bloc de date: in char nu se intampla nimic, in short se interschimba cei 2 bytes, in int se interschimba bytes-ii 2 cate 2. Indexarea incepe de la 0.
+	del() - functia zeroizeaza un bloc de date de pe o anumita pozitie. Indexarea incepe de la 1.
+
+task3:Am scris functiile fill si num_gauri_negre cu un algoritm de recursiv de fill care afiseaza indexul linie-coloana minim si numarul de zerouri dintr-o gaura neagra.

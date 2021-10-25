@@ -1,0 +1,7 @@
+#!/usr/bin/python3 -u
+# Copyright 2019 Darius Neatu (neatudarius@gmail.com)
+
+from check_utils.checks import checker_run
+
+if __name__ == '__main__':
+    checker_run()
